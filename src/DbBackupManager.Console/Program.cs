@@ -8,7 +8,7 @@ namespace DbBackupManager.Console
         static void Main(string[] args)
         {
             System.Console.WriteLine("Hello World!");
-            var bs = new BackupService
+            var bs = new BackupService();
         }
     }
 }
