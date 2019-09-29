@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
 namespace DbBackupManager
 {
@@ -20,9 +22,21 @@ namespace DbBackupManager
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private readonly ISampleService sampleService;
+        private readonly ILogger _logger;
+        private readonly AppSettings settings;
+
+        public MainWindow(ISampleService sampleService, IOptions<AppSettings> settings, ILogger logger)
         {
             InitializeComponent();
+
+            this.sampleService = sampleService;
+            _logger = logger;
+            this.settings = settings.Value;
+
+            _logger.LogDebug("TEST");
         }
+
+        // ...
     }
 }

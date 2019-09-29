@@ -1,8 +1,7 @@
 ﻿<Application x:Class="DbBackupManager.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:DbBackupManager"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:DbBackupManager">
     <Application.Resources>
          
     </Application.Resources>
