@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbBackupManager.Core", "DbB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbBackupManager.Console", "DbBackupManager.Console\DbBackupManager.Console.csproj", "{2055383B-7AF7-44B9-A3C4-3F269A335BB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbBackupManager.WebApp", "DbBackupManager.WebApp\DbBackupManager.WebApp.csproj", "{A32D7B45-CBEA-4BC6-B590-5CE30FF2C724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbBackupManager.WebApp", "DbBackupManager.WebApp\DbBackupManager.WebApp.csproj", "{A32D7B45-CBEA-4BC6-B590-5CE30FF2C724}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
